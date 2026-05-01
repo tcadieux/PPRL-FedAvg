@@ -1,6 +1,8 @@
 # CSCI 575 - Advanced Machine Learning - Final Project
 **Privacy-Preserving Record Linkage: A Five-Tier Comparison Framework**
 
+A 5-tier empirical framework for Privacy-Preserving Record Linkage (PPRL). This project isolates the accuracy trade-offs of different trust models by comparing centralized ML against Federated Learning (FedAvg) using both plaintext and Bloom-filter encoded features. Built for CSCI 575.
+
 
 
 ## Programming Language
@@ -13,10 +15,9 @@ The project is delivered as a set of Jupyter notebooks plus supporting `.py` mod
 
 ## Directory Structure
 
-`project.zip` extracts to a single directory (`Project/`) containing:
 
 ```
-README.TXT              This file.
+README.md               This file.
 requirements.txt        Python dependencies (pip-installable).
 
 Notebooks/              The five tiers + a final comparison notebook.
@@ -32,6 +33,7 @@ Notebooks/              The five tiers + a final comparison notebook.
                                   primitives, metrics, plotting.
 
 Data/
+  generate_dataset.py     Python script to generate new dataset
   output/                 Pre-computed candidate pairs (shipped):
     party_a.csv             Party A's records.
     party_b.csv             Party B's records.
@@ -45,7 +47,7 @@ Results/                  Per-tier outputs written by the notebooks:
                             comparison_example_pairs.csv
 
 Report/
-  report.pdf              Compiled report (this is the report to grade).
+  report.pdf              Final PDF report for submission.
 ```
 
 ---
@@ -53,6 +55,11 @@ Report/
 ## How to Run
 
 The dataset under `Data/output/` is shipped pre-computed, so the default run path is: install dependencies, then execute the driver.
+To regenerate it from scratch, run:
+
+```bash
+python3 Data/generate_dataset.py
+```
 
 > Tested on macOS (Darwin 25.3.0) with Python 3.12.
 
