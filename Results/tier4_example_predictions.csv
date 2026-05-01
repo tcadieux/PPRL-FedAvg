@@ -1,0 +1,4 @@
+tier,label,rec_id_a,rec_id_b,is_match,score,predicted_match
+T4_federated_ttp,Clear match,11841,11841,True,0.9999980585804781,1
+T4_federated_ttp,Missed match (false negative),10516,10516,True,0.5341650723151788,1
+T4_federated_ttp,Non-match,47135,39460,False,0.00021780687558089194,0

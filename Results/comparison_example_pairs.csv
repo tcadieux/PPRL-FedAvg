@@ -1,0 +1,6 @@
+,,,,score,score,score,score,score,predicted_match,predicted_match,predicted_match,predicted_match,predicted_match
+tier,,,,T1_hand_tuned_scorecard,T2_naive_bayes,T3_centralized_ml,T4_federated_ttp,T5_federated_bloom,T1_hand_tuned_scorecard,T2_naive_bayes,T3_centralized_ml,T4_federated_ttp,T5_federated_bloom
+label,rec_id_a,rec_id_b,is_match,,,,,,,,,,
+Clear match,11841,11841,True,0.993,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Missed match (false negative),10516,10516,True,0.7,1.0,0.967,0.534,0.832,0.0,1.0,1.0,1.0,1.0
+Non-match,47135,39460,False,0.447,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

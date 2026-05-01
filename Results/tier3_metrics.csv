@@ -1,0 +1,2 @@
+tier,precision,recall,f1,auc_roc,threshold,n_pairs
+T3_centralized_ml,0.999298948422634,0.9978,0.9985489116837628,0.9999956877777778,0.5,100000

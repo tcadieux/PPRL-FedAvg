@@ -1,0 +1,4 @@
+tier,label,rec_id_a,rec_id_b,is_match,score,predicted_match
+T5_federated_bloom,Clear match,11841,11841,True,0.9999968616880988,1
+T5_federated_bloom,Missed match (false negative),10516,10516,True,0.8319041138001285,1
+T5_federated_bloom,Non-match,47135,39460,False,0.00015999992047636911,0

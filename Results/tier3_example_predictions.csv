@@ -1,0 +1,4 @@
+tier,label,rec_id_a,rec_id_b,is_match,score,predicted_match
+T3_centralized_ml,Clear match,11841,11841,True,0.9999999999996525,1
+T3_centralized_ml,Missed match (false negative),10516,10516,True,0.9672654665389182,1
+T3_centralized_ml,Non-match,47135,39460,False,5.413522667639012e-08,0

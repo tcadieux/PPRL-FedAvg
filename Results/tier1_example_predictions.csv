@@ -1,0 +1,4 @@
+tier,label,rec_id_a,rec_id_b,is_match,score,predicted_match
+T1_hand_tuned_scorecard,Clear match,11841,11841,True,0.9933333333333335,1
+T1_hand_tuned_scorecard,Missed match (false negative),10516,10516,True,0.6999107142857143,0
+T1_hand_tuned_scorecard,Non-match,47135,39460,False,0.44650556632909577,0

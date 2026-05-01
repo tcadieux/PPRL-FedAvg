@@ -1,0 +1,2 @@
+tier,precision,recall,f1,auc_roc,threshold,n_pairs
+T1_hand_tuned_scorecard,0.9992289050451642,0.9071,0.9509382534856903,0.9950095555555556,0.7,100000

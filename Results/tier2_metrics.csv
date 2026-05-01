@@ -1,0 +1,2 @@
+tier,precision,recall,f1,auc_roc,threshold,n_pairs
+T2_naive_bayes,0.9992006394884093,1.0,0.9996001599360256,1.0,0.5,100000

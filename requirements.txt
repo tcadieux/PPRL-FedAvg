@@ -1,0 +1,18 @@
+# Data generation
+faker
+
+# Record linkage
+jellyfish
+
+# ML
+scikit-learn
+
+# Core
+numpy
+pandas
+
+# Visualization
+matplotlib
+
+# Notebook
+jupyter

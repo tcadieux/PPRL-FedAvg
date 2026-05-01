@@ -1,0 +1,2 @@
+tier,precision,recall,f1,auc_roc,threshold,n_pairs
+T5_federated_bloom,0.9997996794871795,0.9982,0.9989991993594876,0.9999995144444445,0.5,100000

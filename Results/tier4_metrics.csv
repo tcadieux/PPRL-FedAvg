@@ -1,0 +1,2 @@
+tier,precision,recall,f1,auc_roc,threshold,n_pairs
+T4_federated_ttp,0.9989926463181223,0.9917,0.9953329653234305,0.999974947777778,0.5,100000

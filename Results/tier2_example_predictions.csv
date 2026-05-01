@@ -1,0 +1,4 @@
+tier,label,rec_id_a,rec_id_b,is_match,score,predicted_match
+T2_naive_bayes,Clear match,11841,11841,True,1.0,1
+T2_naive_bayes,Missed match (false negative),10516,10516,True,0.9999999999985629,1
+T2_naive_bayes,Non-match,47135,39460,False,0.0,0
