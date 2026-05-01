@@ -3,6 +3,8 @@
 
 A 5-tier empirical framework for Privacy-Preserving Record Linkage (PPRL). This project isolates the accuracy trade-offs of different trust models by comparing centralized ML against Federated Learning (FedAvg) using both plaintext and Bloom-filter encoded features. Built for CSCI 575.
 
+The final report can be viewed at [Report.md](https://github.com/tcadieux/PPRL-FedAvg/blob/main/Report.md)
+
 
 
 ## Programming Language
