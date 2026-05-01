@@ -1,11 +1,6 @@
 CSCI 575 - Advanced Machine Learning - Final Project
 Privacy-Preserving Record Linkage: A Five-Tier Comparison Framework
 
-STUDENT
--------
-Name:   Theodore (Ted) Cadieux
-CSM ID: 10956570
-
 PROGRAMMING LANGUAGE
 --------------------
 Python 3.10 or newer.
